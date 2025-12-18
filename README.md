@@ -1,7 +1,7 @@
 ## USER GUIDE
 The program is a flashcard app that helps users study for mathematics and other conceptual subjects by putting flashcards as nodes on a graph to be reviewed. The cards are linked to one another based on conceptual relationships determined by the user. Over time, each flashcard “decays” at a rate determined by a spaced repetition algorithm using 5 parameters so that the user knows when to review the flashcard. On the sidebar, there exists a queue of flashcards in recommended study order based on the urgency of each flashcard, implemented by a priority queue.
 
-IMAGE 1
+<img src="\main\image1.png">
 
 Using the mouse, you can click and drag through the screen.
 Hovering over each of the nodes causes them to respond, and clicking on one of the nodes in the graph allows you to open a menu for reviewing, adding a node, or deleting the node:
@@ -78,4 +78,5 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
 
